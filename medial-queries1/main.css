@@ -1,3 +1,57 @@
 body {
-  background: blanchedalmond;
+  background: lightpink;
+}
+.container {
+  border-style: solid;
+  border-color: white;
+  
+}
+.box {
+  border-style: solid;
+  border-color: hotpink;
+  margin: .5em;
+}
+.a {
+  height: 10em;
+}
+.b {
+  width: auto;
+  height: 50em;
+}
+.c {
+  width: auto;
+  height: 10em;
+}
+.second-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@media screen and (min-device-width: 640px) {
+  
+  .container {
+    border-style: solid;
+    border-color: hotpink;
+  }
+  .box {
+    margin: .5em;
+  }
+  .a {
+    height: 15em;
+  }
+  .second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .b {
+    width: 70em;
+    height: 10em;
+  }
+  .c {
+    width: 19em;
+    height: 10em;
+  }
+
 }
