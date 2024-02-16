@@ -1,3 +1,8 @@
 body {
   background: peachpuff;
 }
+.container {
+  border-style: solid;
+  border-color: hotpink;
+  height: 60em;
+}
