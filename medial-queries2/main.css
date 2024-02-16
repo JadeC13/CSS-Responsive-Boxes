@@ -1,3 +1,73 @@
 body {
-  background: papayawhip;
+  background: lightpink;
+}
+.container {
+  margin: auto;
+  border-style: solid;
+  border-color: white;
+  width: 60em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cde-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-left {
+  width: 100%;
+  height: 100%;
+}
+.bottom {
+  width: 100%;
+  height: 100%;
+}
+.box {
+  border-style: solid;
+  border-color: hotpink;
+  margin: 1em;
+}
+.a {
+  width: 95%;
+  height: 5em;
+}
+.b {
+  width: 95%;
+  height: 15em;
+}
+.c, .d, .e {
+  width: 50%;
+  height: 15em;
+}
+.f {
+  width: 95%;
+  height: 5em;
+}
+
+@media screen and (min-device-width: 640px) {
+  .container{
+    border-style: solid;
+    border-color: hotpink;
+    height: 100%;
+  }
+  .bottom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-left {
+    width: 100%;
+  }
+  .a {
+    height: 10em;
+  }
+  .f {
+    width: 50%;
+    height: 32.5em;
+  }
+  .c, .d, .e {
+    height: 15em;
+  }
 }
