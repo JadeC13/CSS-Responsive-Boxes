@@ -5,4 +5,40 @@ body {
   border-style: solid;
   border-color: hotpink;
   height: 60em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container div {
+  border-style: solid;
+  border-color: hotpink;
+  margin: .5em;
+}
+.bg-clump {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.a {
+  height: 20%;
+}
+.b, .c, .d, .e, .f, .g {
+  height: 15em;
+  width: 15em;
+}
+.h {
+  height: 40%;
+}
+
+@media screen and (min-device-width: 640px) {
+  .bottom-row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .b, .c, .d, .e, .f, .g {
+
+  }
 }
